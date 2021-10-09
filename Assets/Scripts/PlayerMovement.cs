@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController character;
-    private float speed = 1.0f;
+    private float speed = 2.0f;
     private Vector3 direction = Vector3.zero;
     private int coincounter = 0;
     // Start is called before the first frame update
